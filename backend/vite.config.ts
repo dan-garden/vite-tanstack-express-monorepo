@@ -8,14 +8,6 @@ export default defineConfig({
     // vite server configs, for details see [vite doc](https://vitejs.dev/config/#server-host)
     port: 3001
   },
-  resolve: {
-    alias: {
-      '@vite-tanstack-express/shared-types': resolve(__dirname, '../packages/shared-types/src')
-    }
-  },
-  optimizeDeps: {
-    include: ['@vite-tanstack-express/shared-types']
-  },
   plugins: [
     ...VitePluginNode({
       // Nodejs native Request adapter

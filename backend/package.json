@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "@vite-tanstack-express-monorepo/backend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {
+    "@vite-tanstack-express-monorepo/shared": "workspace:*",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.18.2"

@@ -20,16 +20,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src'),
-      '@vite-tanstack-express/shared-types': resolve(__dirname, '../packages/shared-types/src')
+      '@': resolve(__dirname, './src')
     },
-  },
-  optimizeDeps: {
-    include: ['@vite-tanstack-express/shared-types']
-  },
-  build: {
-    commonjsOptions: {
-      include: [/@vite-tanstack-express\/shared-types/]
-    }
   }
 });

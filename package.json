@@ -1,15 +1,18 @@
 {
   "name": "vite-tanstack-express-monorepo",
-  "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
-    "start": "turbo run start",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "test": "turbo run test"
   },
   "devDependencies": {
     "turbo": "^1.12.4"
-  },
-  "packageManager": "pnpm@8.15.4"
+  }
 }
