@@ -1,4 +1,4 @@
-import { ApiResponse, HealthData } from '@vite-tanstack-express-monorepo/shared';
+import { ApiResponse, HealthData } from 'types';
 
 export const checkHealth = (): ApiResponse<HealthData> => {
   return {

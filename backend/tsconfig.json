@@ -10,7 +10,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@vite-tanstack-express-monorepo/shared": ["../shared/src"]
+      "types": ["../types/"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts"],

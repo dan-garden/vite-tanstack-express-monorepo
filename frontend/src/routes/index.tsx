@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useQuery } from '@tanstack/react-query'
-import { healthService } from '@/services'
+import { healthService } from '../lib'
 
 export const Route = createFileRoute('/')({
   component: App,

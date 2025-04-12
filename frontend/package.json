@@ -9,7 +9,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@vite-tanstack-express-monorepo/shared": "workspace:*",
+    "types": "workspace:*",
     "@tailwindcss/vite": "^4.0.17",
     "@tanstack/react-query": "^5.71.1",
     "@tanstack/react-router": "^1.114.3",

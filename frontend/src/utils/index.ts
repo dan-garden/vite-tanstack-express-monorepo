@@ -1,4 +1,4 @@
-import type { ApiResponse } from '@vite-tanstack-express-monorepo/shared';
+import type { ApiResponse } from 'types';
 
 export const API_BASE_URL = 'http://localhost:3001/api';
 
