@@ -6,7 +6,7 @@
   "globalEnv": [
     "NODE_ENV"
   ],
-  "pipeline": {
+  "tasks": {
     "build": {
       "dependsOn": [
         "^build"
