@@ -1,10 +1,7 @@
-import { ApiResponse, HealthData } from 'types';
+import { HealthData } from 'types';
 
-export const checkHealth = (): ApiResponse<HealthData> => {
+export function checkHealth(): HealthData {
   return {
-    success: true,
-    data: {
-      status: 'ok'
-    }
+    status: 'ok'
   };
-}; 
+} 
